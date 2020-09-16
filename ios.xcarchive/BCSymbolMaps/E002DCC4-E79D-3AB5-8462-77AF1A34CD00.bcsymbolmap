@@ -1,0 +1,123 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.2)
+/Applications/Xcode12.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
+iPhoneOS14.0.sdk
+/Users/rita/Library/Developer/Xcode/DerivedData/SimpleKeychain-exjbfxirnipxihedtejoesdtjrdc/Build/Intermediates.noindex/ArchiveIntermediates/SimpleKeychain-iOS/IntermediateBuildFilesPath/SimpleKeychain.build/Release-iphoneos/SimpleKeychain-iOS.build/DerivedSources/SimpleKeychain_vers.c
+/Users/rita/Code/SimpleKeychain
+-[A0SimpleKeychain init]
+-[A0SimpleKeychain initWithService:]
+-[A0SimpleKeychain initWithService:accessGroup:]
+-[A0SimpleKeychain setTouchIDAuthenticationAllowableReuseDuration:]
+-[A0SimpleKeychain stringForKey:]
+-[A0SimpleKeychain dataForKey:]
+-[A0SimpleKeychain stringForKey:promptMessage:]
+-[A0SimpleKeychain dataForKey:promptMessage:]
+-[A0SimpleKeychain dataForKey:promptMessage:error:]
+-[A0SimpleKeychain hasValueForKey:]
+-[A0SimpleKeychain setString:forKey:]
+-[A0SimpleKeychain setData:forKey:]
+-[A0SimpleKeychain setString:forKey:promptMessage:]
+-[A0SimpleKeychain setData:forKey:promptMessage:]
+-[A0SimpleKeychain deleteEntryForKey:]
+-[A0SimpleKeychain clearAll]
++[A0SimpleKeychain keychain]
++[A0SimpleKeychain keychainWithService:]
++[A0SimpleKeychain keychainWithService:accessGroup:]
+-[A0SimpleKeychain accessibility]
+-[A0SimpleKeychain stringForSecStatus:]
+-[A0SimpleKeychain baseQuery]
+-[A0SimpleKeychain queryFindAll]
+-[A0SimpleKeychain queryFindByKey:message:]
+-[A0SimpleKeychain queryUpdateValue:message:]
+-[A0SimpleKeychain queryNewKey:value:]
+-[A0SimpleKeychain queryFetchOneByKey:message:]
+-[A0SimpleKeychain service]
+-[A0SimpleKeychain accessGroup]
+-[A0SimpleKeychain defaultAccessiblity]
+-[A0SimpleKeychain setDefaultAccessiblity:]
+-[A0SimpleKeychain useAccessControl]
+-[A0SimpleKeychain setUseAccessControl:]
+-[A0SimpleKeychain localAuthenticationContext]
+-[A0SimpleKeychain .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_CLASSLIST_REFERENCES_$_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_CLASSLIST_REFERENCES_$_.26
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_CLASSLIST_REFERENCES_$_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_CLASSLIST_REFERENCES_$_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_CLASSLIST_REFERENCES_$_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_CLASSLIST_REFERENCES_$_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.111
+__OBJC_$_CLASS_METHODS_A0SimpleKeychain
+__OBJC_METACLASS_RO_$_A0SimpleKeychain
+__OBJC_$_INSTANCE_METHODS_A0SimpleKeychain
+_OBJC_IVAR_$_A0SimpleKeychain._useAccessControl
+_OBJC_IVAR_$_A0SimpleKeychain._service
+_OBJC_IVAR_$_A0SimpleKeychain._accessGroup
+_OBJC_IVAR_$_A0SimpleKeychain._defaultAccessiblity
+_OBJC_IVAR_$_A0SimpleKeychain._localAuthenticationContext
+__OBJC_$_INSTANCE_VARIABLES_A0SimpleKeychain
+__OBJC_$_PROP_LIST_A0SimpleKeychain
+__OBJC_CLASS_RO_$_A0SimpleKeychain
+/Users/rita/Code/SimpleKeychain/SimpleKeychain/A0SimpleKeychain.m
+SimpleKeychain/A0SimpleKeychain.m
+SimpleKeychain/A0SimpleKeychain.h
+-[A0SimpleKeychain(KeyPair) generateRSAKeyPairWithLength:publicKeyTag:privateKeyTag:]
+-[A0SimpleKeychain(KeyPair) dataForRSAKeyWithTag:]
+-[A0SimpleKeychain(KeyPair) hasRSAKeyWithTag:]
+-[A0SimpleKeychain(KeyPair) deleteRSAKeyWithTag:]
+-[A0SimpleKeychain(KeyPair) keyRefOfRSAKeyWithTag:]
+-[A0SimpleKeychain(Deprecated) publicRSAKeyDataForTag:]
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_CLASSLIST_REFERENCES_$_.12
+_OBJC_SELECTOR_REFERENCES_.14
+__OBJC_$_CATEGORY_INSTANCE_METHODS_A0SimpleKeychain_$_KeyPair
+__OBJC_$_CATEGORY_A0SimpleKeychain_$_KeyPair
+_OBJC_SELECTOR_REFERENCES_.23
+__OBJC_$_CATEGORY_INSTANCE_METHODS_A0SimpleKeychain_$_Deprecated
+__OBJC_$_CATEGORY_A0SimpleKeychain_$_Deprecated
+/Users/rita/Code/SimpleKeychain/SimpleKeychain/A0SimpleKeychain+KeyPair.m
+SimpleKeychain/A0SimpleKeychain+KeyPair.m

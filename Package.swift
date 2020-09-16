@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -14,7 +14,6 @@ let package = Package(
     products: [
         .library(
             name: "SimpleKeychain",
-            type: .dynamic,
             targets: ["SimpleKeychain"]
         ),
     ],
@@ -23,11 +22,7 @@ let package = Package(
         .package(url: "https://github.com/Quick/Nimble", from: "8.0.0"),
     ],
     targets: [
-        .target(
-            name: "SimpleKeychain",
-            dependencies: [],
-            path: "SimpleKeychain"
-        ),
+        .binaryTarget(name: "SimpleKeychain", path: "SimpleKeychain.xcframework"),
         .testTarget(
             name: "SimpleKeychainTests",
             dependencies: ["SimpleKeychain", "Quick", "Nimble"],
