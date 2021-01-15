@@ -26,7 +26,8 @@ let package = Package(
         .target(
             name: "SimpleKeychain",
             dependencies: [],
-            path: "SimpleKeychain"
+            path: "SimpleKeychain",
+            linkerSettings: [.unsafeFlags(["-compatibility_version", "1"])]
         ),
         .testTarget(
             name: "SimpleKeychainTests",
